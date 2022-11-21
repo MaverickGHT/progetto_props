@@ -1,6 +1,6 @@
-function Button () {
+function Button (props) {
     return (
-        <input type="Button" value="Miao" />
+        <input type="Button" value="Miao" onClick={props.mostra} />
     );
 }
 
